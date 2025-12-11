@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "rails"
 gem "sqlite3"
 gem "puma"
-gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "kamal", require: false
 gem "thruster", require: false
