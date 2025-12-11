@@ -6,8 +6,7 @@ class ApplicationController < ActionController::API
   private
 
   def authenticate!
-    auth_header = request.headers["Authorization"]
-    token = auth_header&.split(" ")&.last
+    token = request.headers["Authorization"]&.delete_prefix("Bearer ")&.strip
 
     @current_user = User.find_by(api_token: token)
 
