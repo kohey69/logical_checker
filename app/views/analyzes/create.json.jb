@@ -1,0 +1,8 @@
+{
+  who:   @result[:who],
+  when:  @result[:when],
+  what:  @result[:what],
+  where: @result[:where],
+  why:   @result[:why],
+  how:   @result[:how]
+}

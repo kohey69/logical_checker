@@ -5,3 +5,5 @@ inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 Bundler/OrderedGems:
   Enabled: true
   TreatCommentsAsGroupSeparators: false
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
